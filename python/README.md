@@ -8,18 +8,23 @@ ArcQML Python 是基于 PyO3 的原生扩展，为 Python 用户提供可微量�
 
 ### 使用发行包 wheel
 
+当前随仓库提供的 wheel 仅支持 **CPython 3.11、Windows x86_64**。以下命令在仓库根目录执行：
 
 ```bash
 python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
+python -m pip install ./wheels/x86_64-pc-windows-msvc/arcqml-0.1.0-cp311-cp311-win_amd64.whl
 ```
 
 官方 wheel 已包含匹配的 ArcQML Runtime，更多版本将在后续放出。
 
 ### 从源码构建
 
+源码声明支持 Python `3.9` 或更高版本。还需要 Rust 1.98.0、Maturin，以及与当前平台和 ArcQML 版本匹配的 Runtime 静态库。以下命令同样在仓库根目录执行：
 
 ```powershell
+$env:RUSTUP_TOOLCHAIN = "1.98.0"
 $env:ARCQML_RUNTIME_LIB_DIR = (Resolve-Path ".\libs\x86_64-pc-windows-msvc").Path
 python -m pip install "maturin>=1.7,<2.0"
 maturin develop --release
@@ -169,3 +174,4 @@ values = simulator.run(circuit, observable)  # shape 为 [2]
 - GPU、噪声、密度矩阵、量子信道、中途测量、经典条件控制或真机后端。
 - 其它 Rust 完整功能以及对应 TODO。
 
+端到端示例参见 [`python/examples`](examples) 与仓库级 [`examples/python`](../examples/python)。许可证为 [混合许可说明](../README.md#发行状态与许可证)，发行状态参见[根 README](../README.md#发行状态与许可证)。

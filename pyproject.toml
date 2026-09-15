@@ -1,4 +1,5 @@
 [build-system]
+requires = ["maturin>=1.15,<2.0"]
 build-backend = "maturin"
 
 [project]
@@ -6,6 +7,8 @@ name = "arcqml"
 dynamic = ["version"]
 description = "Differentiable quantum circuits backed by the ArcQML Rust workspace"
 readme = "README.md"
+license = "LicenseRef-ArcQML-NC-Source-1.0 AND LicenseRef-ArcQML-NC-Runtime-1.0"
+license-files = ["LICENSE", "LICENSE-RUNTIME", "THIRD_PARTY_NOTICES.md", "SECURITY.md", "RELEASE_NOTES.md", "examples/data/LICENSE-PDDL"]
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",

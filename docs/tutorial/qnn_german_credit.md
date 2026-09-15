@@ -6,6 +6,7 @@ ArcQML 是一个用 Rust 语言原生实现的量子机器学习框架，提供�
 
 本教程使用 ArcQML 实现一个完整的二分类任务，选取德国信用数据集中的 10 个特征，预测申请者是否属于“信用不良”类别。教程将依次说明数据预处理、量子态编码、构造量子电路与制备量子态、计算二元交叉熵损失、参数优化以及验证和测试。完整程序分别位于 [`examples/rust/qnn_german_credit.rs`](../../examples/rust/qnn_german_credit.rs) 和 [`examples/python/qnn_german_credit.py`](../../examples/python/qnn_german_credit.py)。
 
+完整数据集位于 [`examples/data/german_credit.csv`](../../examples/data/german_credit.csv)，来源为 [Open Data LMU](https://doi.org/10.5282/ubm/data.23)，采用 PDDL 1.0。来源、表头映射与核对记录见 [数据说明](../../examples/data/README.md)。
 
 ## 1. 准备运行环境
 

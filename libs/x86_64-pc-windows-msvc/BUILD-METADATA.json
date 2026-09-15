@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "target": "x86_64-pc-windows-msvc",
+  "rustc": "rustc 1.98.0 (88d9e12ae 2026-08-18)\nbinary: rustc\ncommit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea\ncommit-date: 2026-08-18\nhost: x86_64-pc-windows-msvc\nrelease: 1.98.0\nLLVM version: 22.1.8",
+  "abi": 1,
+  "source_sha256": {
+    "runtime": "b91c998bd908f15983db37292663957524894dd03f7389e2a95815f842486ad6",
+    "public": "5b6794902ff2882c2f51227197937da0e87b78077618c43786f52cab4fa01e54"
+  },
+  "library": "arcqml_runtime_private.lib",
+  "library_sha256": "7de2de60961c1be6ce5a032a143e8c801a70b71d671e898e7e52ce7e4fdfa78d",
+  "scope": "Locked source inventory with separate upstream Rust toolchain copyright evidence; not final release approval.",
+  "evidence_sha256": {
+    "RUST_COPYRIGHT.html": "5b0c93fc4e6d4b072eaa521b1762d1e746f4c368f65e81a0e5308e2772dac85e",
+    "RUST_COPYRIGHT-library.html": "68129500b616d5838629e68f55ff3aed5e096dacf60ce9eb41bbe599a563afa6",
+    "THIRD_PARTY_LICENSES.txt": "fbcd417566afd148772c94be4a9cf9eb92a49503de67151198a767827aec4586",
+    "runtime.cdx.json": "ebea3c3ee8562ed144f889f584fa109482789e6877aa6891f3a5a44e103836af",
+    "wheel.cdx.json": "1c067576869037916820e6d395af95af4b7ec37a01bfc420973b5d2352cf0010"
+  }
+}

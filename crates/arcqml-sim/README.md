@@ -2,6 +2,7 @@
 
 `arcqml-sim` 提供理想纯态量子电路的状态向量模拟器。`StateVectorSimulator` 处理一个状态，`BatchStateVectorSimulator` 让一批独立初态共享同一条电路与参数。
 
+> 本 crate 通过公开接口层调用 ArcQML Runtime 数值内核。构建时需要匹配版本和平台的 Runtime 静态库；许可证见 [混合许可说明](../../README.md#发行状态与许可证)。
 
 ## 添加依赖
 

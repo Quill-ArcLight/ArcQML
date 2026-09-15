@@ -130,3 +130,4 @@ let restored = Circuit::from_json(&structure)?;
 
 训练后的参数值应另用 [`arcqml-checkpoint`](../arcqml-checkpoint/README.md) 保存。应用若需要完整模型，应同时管理电路结构 JSON 与权重 JSON，并保持版本一致。
 
+许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

@@ -79,3 +79,4 @@ fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
 
 当前代码只提供 `save_weights` 与 `load_weights`，没有完整训练状态的 `save_checkpoint` / `load_checkpoint`。以上功能会在后续版本中更新。
 
+端到端示例见 [`train_and_save.rs`](../arcqml/examples/train_and_save.rs) 与 [`load_weights.rs`](../arcqml/examples/load_weights.rs)。许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

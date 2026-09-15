@@ -33,3 +33,6 @@ Thumbs.db
 .vscode/
 # 日志文件
 *.log
+
+# Internal release review and local evidence (never export to public snapshots).
+/docs/open-source/

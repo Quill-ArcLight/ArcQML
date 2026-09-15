@@ -57,3 +57,4 @@ cargo run -p arcqml-visualization --example svg_circuit
 
 生成的参考文件位于 [`examples/svg_circuit.svg`](examples/svg_circuit.svg)。普通用户也可从门面 crate 使用 `arcqml::visualization::{draw, draw_svg, write_svg}`；`arcqml::prelude::*` 目前只额外重导出 `draw`。
 
+许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

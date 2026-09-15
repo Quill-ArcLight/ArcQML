@@ -79,3 +79,4 @@ assert_eq!(result.shape(), &[2, 2]);
 
 复数反向传播采用面向实值损失的共轭 Wirtinger VJP 约定。若最终目标不是实值标量，应先明确所需的复梯度语义。
 
+底层 Tensor 语义见 [`arcqml-core`](../arcqml-core/README.md)，损失函数见 [`arcqml-loss`](../arcqml-loss/README.md)。许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

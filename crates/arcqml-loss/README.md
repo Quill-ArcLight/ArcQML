@@ -113,3 +113,4 @@ $$
 
 当前 `binary_nll_loss` 使用的 `1e-12` 截断量在 F32 的 ±1 附近不能有效表示，边界输入可能得到 NaN 或无穷值。该路径应优先使用 F64，并在训练中检查结果有限性；它与接收 logits 的 BCE 不是同一种输入语义。
 
+量子训练中，`prediction` 通常来自 `StateVectorSimulator::run` 或 batch `run`。完整训练流程见 [`arcqml`](../arcqml/README.md#一次完整训练步骤)，优化器见 [`arcqml-optim`](../arcqml-optim/README.md)。许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

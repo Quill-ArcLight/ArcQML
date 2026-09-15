@@ -1,0 +1,56 @@
+{
+  "script_sha256": "de53b79cc5eacc4fad162e65dd5b106b0bf28035ad9b86497f3212c41bb919f6",
+  "python": "3.11.16 (main, Aug 14 2026, 15:34:35) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "appdirs": "1.4.4",
+    "autograd": "1.8.0",
+    "autoray": "0.8.4",
+    "cachetools": "7.1.8",
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.1",
+    "diastatic-malt": "2.15.3",
+    "gast": "0.7.0",
+    "idna": "3.19",
+    "networkx": "3.6.1",
+    "numpy": "2.4.6",
+    "packaging": "26.3",
+    "pennylane": "0.45.1",
+    "pennylane_lightning": "0.45.0",
+    "requests": "2.34.2",
+    "rustworkx": "0.18.1",
+    "scipy": "1.17.1",
+    "scipy-openblas32": "0.3.34.237.0",
+    "termcolor": "3.3.0",
+    "tomlkit": "0.15.1",
+    "typing_extensions": "4.16.0",
+    "urllib3": "2.7.0"
+  },
+  "backend": "pennylane.qchem molecular_hamiltonian method=dhf",
+  "num_qubits": 4,
+  "terms": 15,
+  "same_pauli_terms": true,
+  "max_coefficient_absolute_difference": 0.0,
+  "generated_sha256": "27ab3eceda6557ca8d81c0df63df80a7769f1ff7b4d47c896d04ad284b1ecd86",
+  "original_sha256": "358b0c3d87444f8d7a89cb9505d24c56b067ca34f75c6306e78bac9891f40a04",
+  "note": "Reproduction performed now with the received source; not a claim about historical tool versions.",
+  "reproduced_on": "2026-09-15",
+  "geometry_angstrom": [
+    [
+      "H",
+      0,
+      0,
+      -0.35
+    ],
+    [
+      "H",
+      0,
+      0,
+      0.35
+    ]
+  ],
+  "basis": "STO-3G",
+  "active_electrons": 2,
+  "active_orbitals": 2,
+  "mapping": "Jordan-Wigner",
+  "coefficient_comparison": "Exact equality for all 15 Pauli coefficients after ordering terms by their Pauli word. JSON formatting differs; repository data are unchanged."
+}

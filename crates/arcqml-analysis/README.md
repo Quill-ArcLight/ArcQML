@@ -73,3 +73,4 @@ $$
 - 本 crate 只支持单态 `StateVectorSimulator`，不提供 batch 分析函数。
 - 这些接口计算精确结果；需要有限 shots 的统计结果时使用单态模拟器的 `sample_counts`。
 
+模拟器语义见 [`arcqml-sim`](../arcqml-sim/README.md)。许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

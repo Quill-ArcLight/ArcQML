@@ -1,0 +1,1128 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "library",
+      "bom-ref": "urn:arcqml:local:arcqml-runtime-private:0.1.0",
+      "name": "arcqml-runtime-private",
+      "version": "0.1.0",
+      "licenses": [
+        {
+          "expression": "LicenseRef-ArcQML-NC-Runtime-1.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "arcqml:source-license-file",
+          "value": "LICENSE-RUNTIME"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "arcqml:scope",
+        "value": "Locked source dependency graph including build, development and optional/other-target dependencies; not an exact linked-symbol inventory. NumPy and Python are external runtime requirements, not bundled."
+      },
+      {
+        "name": "arcqml:target",
+        "value": "x86_64-pc-windows-msvc"
+      },
+      {
+        "name": "arcqml:source-sha256:runtime",
+        "value": "b91c998bd908f15983db37292663957524894dd03f7389e2a95815f842486ad6"
+      },
+      {
+        "name": "arcqml:source-sha256:public",
+        "value": "5b6794902ff2882c2f51227197937da0e87b78077618c43786f52cab4fa01e54"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/autocfg@1.5.1",
+      "name": "autocfg",
+      "version": "1.5.1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "purl": "pkg:cargo/autocfg@1.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/autocfg/1.5.1/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cfg-if@1.0.4",
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/cfg-if@1.0.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/cfg-if/1.0.4/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/chacha20@0.10.2",
+      "name": "chacha20",
+      "version": "0.10.2",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/chacha20@0.10.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "65c35e4b699c7e15ccbe7ee35c005e4fc0a278d22238a2857e6ce2dadeda1b06"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/chacha20/0.10.2/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cpufeatures@0.3.1",
+      "name": "cpufeatures",
+      "version": "0.3.1",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/cpufeatures@0.3.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5ca28b0ae3115b884660db4118d803791fd6756b6e88f39c0f3f7859060d7566"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/cpufeatures/0.3.1/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crossbeam-deque@0.8.8",
+      "name": "crossbeam-deque",
+      "version": "0.8.8",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/crossbeam-deque@0.8.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "622f3fc73690be383c7214310406f28a90e6edeadc3cea882f9d71e495b9711a"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/crossbeam-deque/0.8.8/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crossbeam-epoch@0.9.21",
+      "name": "crossbeam-epoch",
+      "version": "0.9.21",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/crossbeam-epoch@0.9.21",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dc74980687109a3b14c72fd458107bf0baa1da1a1a805e178d15501ba9b86d9d"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/crossbeam-epoch/0.9.21/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crossbeam-utils@0.8.23",
+      "name": "crossbeam-utils",
+      "version": "0.8.23",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/crossbeam-utils@0.8.23",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a31eee39dddec8330830986fcd7625edb5a24ec90ea038215273bbc3adb08ac6"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/crossbeam-utils/0.8.23/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/either@1.18.0",
+      "name": "either",
+      "version": "1.18.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/either@1.18.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "252afb9ae5eaa683babdc6a068b3f5726eb19e05070c731f9b2a23a7c3e8ed34"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/either/1.18.0/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/getrandom@0.4.3",
+      "name": "getrandom",
+      "version": "0.4.3",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/getrandom@0.4.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "300e883d756b2e4ec94e02791f39b04b522276138852cfc41d9fb7e904106099"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/getrandom/0.4.3/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/itoa@1.0.18",
+      "name": "itoa",
+      "version": "1.0.18",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/itoa@1.0.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/itoa/1.0.18/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/libc@0.2.189",
+      "name": "libc",
+      "version": "0.2.189",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/libc@0.2.189",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/libc/0.2.189/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/libm@0.2.16",
+      "name": "libm",
+      "version": "0.2.16",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "purl": "pkg:cargo/libm@0.2.16",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b6d2cec3eae94f9f509c767b45932f1ada8350c4bdb85af2fcab4a3c14807981"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/libm/0.2.16/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/memchr@2.8.3",
+      "name": "memchr",
+      "version": "2.8.3",
+      "licenses": [
+        {
+          "expression": "Unlicense OR MIT"
+        }
+      ],
+      "purl": "pkg:cargo/memchr@2.8.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/memchr/2.8.3/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/num-complex@0.4.6",
+      "name": "num-complex",
+      "version": "0.4.6",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/num-complex@0.4.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "73f88a1307638156682bada9d7604135552957b7818057dcef22705b4d509495"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/num-complex/0.4.6/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/num-traits@0.2.19",
+      "name": "num-traits",
+      "version": "0.2.19",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/num-traits@0.2.19",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/num-traits/0.2.19/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/proc-macro2@1.0.107",
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/proc-macro2@1.0.107",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/proc-macro2/1.0.107/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/quote@1.0.47",
+      "name": "quote",
+      "version": "1.0.47",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/quote@1.0.47",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/quote/1.0.47/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/r-efi@6.0.0",
+      "name": "r-efi",
+      "version": "6.0.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0 OR LGPL-2.1-or-later"
+        }
+      ],
+      "purl": "pkg:cargo/r-efi@6.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/r-efi/6.0.0/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rand@0.10.2",
+      "name": "rand",
+      "version": "0.10.2",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/rand@0.10.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c7f5fa3a058cd35567ef9bfa5e75732bee0f9e4c55fa90477bef2dfcdbc4be80"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/rand/0.10.2/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rand_core@0.10.1",
+      "name": "rand_core",
+      "version": "0.10.1",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/rand_core@0.10.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "63b8176103e19a2643978565ca18b50549f6101881c443590420e4dc998a3c69"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/rand_core/0.10.1/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rand_distr@0.6.0",
+      "name": "rand_distr",
+      "version": "0.6.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/rand_distr@0.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4d431c2703ccf129de4d45253c03f49ebb22b97d6ad79ee3ecfc7e3f4862c1d8"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/rand_distr/0.6.0/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rayon-core@1.13.0",
+      "name": "rayon-core",
+      "version": "1.13.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/rayon-core@1.13.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22e18b0f0062d30d4230b2e85ff77fdfe4326feb054b9783a3460d8435c8ab91"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/rayon-core/1.13.0/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rayon@1.12.0",
+      "name": "rayon",
+      "version": "1.12.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/rayon@1.12.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fb39b166781f92d482534ef4b4b1b2568f42613b53e5b6c160e24cfbfa30926d"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/rayon/1.12.0/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde@1.0.229",
+      "name": "serde",
+      "version": "1.0.229",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/serde@1.0.229",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4148590afebada386688f18773da617792bf2ef03ffc1e4cbd2b1d45b023e0ba"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/serde/1.0.229/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_core@1.0.229",
+      "name": "serde_core",
+      "version": "1.0.229",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/serde_core@1.0.229",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "67dca2c9c51e58a4791a4b1ed58308b39c64224d349a935ab5039aa360942a48"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/serde_core/1.0.229/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_derive@1.0.229",
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/serde_derive@1.0.229",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e7a5d71263a5a7d47b41f6b3f06ba276f10cc18b0931f1799f710578e2309348"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/serde_derive/1.0.229/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_json@1.0.151",
+      "name": "serde_json",
+      "version": "1.0.151",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/serde_json@1.0.151",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c841b55ecdae098c80dcae9cf767f6f8a0c2cdb3416bbef72181df4d0fe73f14"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/serde_json/1.0.151/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/syn@3.0.5",
+      "name": "syn",
+      "version": "3.0.5",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/syn@3.0.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "12df2e0110f65b775f769bb17ef989067a1d931b2eb822bd4346631eeada89f9"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/syn/3.0.5/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/thiserror-impl@2.0.20",
+      "name": "thiserror-impl",
+      "version": "2.0.20",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/thiserror-impl@2.0.20",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bc04cd3e1236dd4a98afca4569f2deb3f120e5422a4023be2cb683f8486292af"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/thiserror-impl/2.0.20/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/thiserror@2.0.20",
+      "name": "thiserror",
+      "version": "2.0.20",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "purl": "pkg:cargo/thiserror@2.0.20",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ec86235f5fcc2a73650310756d2ac5b138a5780bbbdfae3eeccec992c435ba4f"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/thiserror/2.0.20/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/unicode-ident@1.0.24",
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "licenses": [
+        {
+          "expression": "(MIT OR Apache-2.0) AND Unicode-3.0"
+        }
+      ],
+      "purl": "pkg:cargo/unicode-ident@1.0.24",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/unicode-ident/1.0.24/download"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/zmij@1.0.23",
+      "name": "zmij",
+      "version": "1.0.23",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "purl": "pkg:cargo/zmij@1.0.23",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "29666d0abbfad1e3dc4dcf6144730dd3a3ab225bbbdac83319345b1b44ccfc1b"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://crates.io/api/v1/crates/zmij/1.0.23/download"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "urn:arcqml:artifact:7de2de60961c1be6ce5a032a143e8c801a70b71d671e898e7e52ce7e4fdfa78d",
+      "name": "arcqml_runtime_private.lib",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7de2de60961c1be6ce5a032a143e8c801a70b71d671e898e7e52ce7e4fdfa78d"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "urn:arcqml:local:arcqml-circuit:0.1.0",
+      "name": "arcqml-circuit",
+      "version": "0.1.0",
+      "licenses": [
+        {
+          "expression": "LicenseRef-ArcQML-NC-Source-1.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "arcqml:source-license-file",
+          "value": "LICENSE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "urn:arcqml:local:arcqml-core:0.1.0",
+      "name": "arcqml-core",
+      "version": "0.1.0",
+      "licenses": [
+        {
+          "expression": "LicenseRef-ArcQML-NC-Source-1.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "arcqml:source-license-file",
+          "value": "LICENSE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "urn:arcqml:local:arcqml-runtime-abi:0.1.0",
+      "name": "arcqml-runtime-abi",
+      "version": "0.1.0",
+      "licenses": [
+        {
+          "expression": "LicenseRef-ArcQML-NC-Source-1.0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "arcqml:source-license-file",
+          "value": "LICENSE"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "bom-ref": "urn:arcqml:rust-toolchain",
+      "name": "Rust toolchain and standard library",
+      "version": "rustc 1.98.0 (88d9e12ae 2026-08-18)",
+      "properties": [
+        {
+          "name": "arcqml:license-evidence",
+          "value": "RUST_COPYRIGHT.html, RUST_COPYRIGHT-library.html and THIRD_PARTY_LICENSES.txt"
+        },
+        {
+          "name": "arcqml:coverage",
+          "value": "Toolchain group; bundled standard-library constituents are enumerated in the upstream copyright documents, not individually resolved by Cargo."
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:cargo/autocfg@1.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/cfg-if@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/chacha20@0.10.2",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.4",
+        "pkg:cargo/cpufeatures@0.3.1",
+        "pkg:cargo/rand_core@0.10.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cpufeatures@0.3.1",
+      "dependsOn": [
+        "pkg:cargo/libc@0.2.189"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/crossbeam-deque@0.8.8",
+      "dependsOn": [
+        "pkg:cargo/crossbeam-epoch@0.9.21",
+        "pkg:cargo/crossbeam-utils@0.8.23"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/crossbeam-epoch@0.9.21",
+      "dependsOn": [
+        "pkg:cargo/crossbeam-utils@0.8.23"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/crossbeam-utils@0.8.23",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/either@1.18.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/getrandom@0.4.3",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.4",
+        "pkg:cargo/libc@0.2.189",
+        "pkg:cargo/r-efi@6.0.0",
+        "pkg:cargo/rand_core@0.10.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/itoa@1.0.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/libc@0.2.189",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/libm@0.2.16",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/memchr@2.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/num-complex@0.4.6",
+      "dependsOn": [
+        "pkg:cargo/num-traits@0.2.19"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/num-traits@0.2.19",
+      "dependsOn": [
+        "pkg:cargo/autocfg@1.5.1",
+        "pkg:cargo/libm@0.2.16"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/proc-macro2@1.0.107",
+      "dependsOn": [
+        "pkg:cargo/unicode-ident@1.0.24"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/quote@1.0.47",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/r-efi@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/rand@0.10.2",
+      "dependsOn": [
+        "pkg:cargo/chacha20@0.10.2",
+        "pkg:cargo/getrandom@0.4.3",
+        "pkg:cargo/rand_core@0.10.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rand_core@0.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/rand_distr@0.6.0",
+      "dependsOn": [
+        "pkg:cargo/num-traits@0.2.19",
+        "pkg:cargo/rand@0.10.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rayon-core@1.13.0",
+      "dependsOn": [
+        "pkg:cargo/crossbeam-deque@0.8.8",
+        "pkg:cargo/crossbeam-utils@0.8.23"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rayon@1.12.0",
+      "dependsOn": [
+        "pkg:cargo/either@1.18.0",
+        "pkg:cargo/rayon-core@1.13.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde@1.0.229",
+      "dependsOn": [
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/serde_derive@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_core@1.0.229",
+      "dependsOn": [
+        "pkg:cargo/serde_derive@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_derive@1.0.229",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/syn@3.0.5"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_json@1.0.151",
+      "dependsOn": [
+        "pkg:cargo/itoa@1.0.18",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/zmij@1.0.23"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/syn@3.0.5",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/unicode-ident@1.0.24"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/thiserror-impl@2.0.20",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/syn@3.0.5"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/thiserror@2.0.20",
+      "dependsOn": [
+        "pkg:cargo/thiserror-impl@2.0.20"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/unicode-ident@1.0.24",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/zmij@1.0.23",
+      "dependsOn": []
+    },
+    {
+      "ref": "urn:arcqml:artifact:7de2de60961c1be6ce5a032a143e8c801a70b71d671e898e7e52ce7e4fdfa78d",
+      "dependsOn": [
+        "urn:arcqml:local:arcqml-runtime-private:0.1.0",
+        "urn:arcqml:rust-toolchain"
+      ]
+    },
+    {
+      "ref": "urn:arcqml:local:arcqml-circuit:0.1.0",
+      "dependsOn": [
+        "pkg:cargo/num-complex@0.4.6",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.151",
+        "pkg:cargo/thiserror@2.0.20",
+        "urn:arcqml:local:arcqml-core:0.1.0"
+      ]
+    },
+    {
+      "ref": "urn:arcqml:local:arcqml-core:0.1.0",
+      "dependsOn": [
+        "pkg:cargo/num-complex@0.4.6",
+        "pkg:cargo/rand@0.10.2",
+        "pkg:cargo/rand_distr@0.6.0",
+        "pkg:cargo/rayon@1.12.0",
+        "pkg:cargo/thiserror@2.0.20"
+      ]
+    },
+    {
+      "ref": "urn:arcqml:local:arcqml-runtime-abi:0.1.0",
+      "dependsOn": [
+        "pkg:cargo/num-complex@0.4.6"
+      ]
+    },
+    {
+      "ref": "urn:arcqml:local:arcqml-runtime-private:0.1.0",
+      "dependsOn": [
+        "pkg:cargo/num-complex@0.4.6",
+        "pkg:cargo/thiserror@2.0.20",
+        "urn:arcqml:artifact:7de2de60961c1be6ce5a032a143e8c801a70b71d671e898e7e52ce7e4fdfa78d",
+        "urn:arcqml:local:arcqml-circuit:0.1.0",
+        "urn:arcqml:local:arcqml-core:0.1.0",
+        "urn:arcqml:local:arcqml-runtime-abi:0.1.0",
+        "urn:arcqml:rust-toolchain"
+      ]
+    }
+  ]
+}

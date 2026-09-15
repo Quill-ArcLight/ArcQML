@@ -22,6 +22,8 @@ resolver = "2"
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
+license = "LicenseRef-ArcQML-NC-Source-1.0"
+authors = ["北京中科弧光量子软件技术有限公司", "liuxl <quill@arclightquantum.com>"]
 description = "ArcQML: a CPU dense quantum machine-learning framework written in Rust"
 
 [workspace.dependencies]

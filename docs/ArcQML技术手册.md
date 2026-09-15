@@ -1,5 +1,6 @@
 # ArcQML 技术手册
 
+> 适用版本：`ArcQML 0.1.0`。自有公开源码采用非商业源码可用许可，修改和集成需公开源码；官方闭源 Runtime 设例外并受单独非商业二进制许可约束。第三方材料保留原许可。参见 [源码许可](../LICENSE)、[Runtime 条款](../LICENSE-RUNTIME) 与 [第三方说明](../THIRD_PARTY_NOTICES.md)。
 
 ## 目录
 
@@ -102,15 +103,18 @@ PATH_TO_YOUR_FILES/ArcQML/
 ├── examples/               # 完整示例
 ├── docs/                   # 技术手册、API 文档与教程
 ├── Cargo.toml
+├── LICENSE
 ├── LICENSE-RUNTIME
 └── ...
 ```
 
+`libs` 中的二进制库必须与操作系统和 CPU 架构匹配，不应改名或与其他 ArcQML 版本混用。本次预览版仅提供 Windows `x86_64-pc-windows-msvc` Runtime 与 CPython 3.11 Windows x86_64 wheel；不能安装到 Linux、macOS、ARM 或其他 Python 版本。
 
 其他操作系统、CPU 架构和 Python 版本的支持，以后续实际提供的构建产物为准。
 
 ### 2.2 Rust 环境与 Runtime 配置
 
+Rust 接口使用 `Rust 2024 edition`，本次预编译 Runtime 固定使用 Rust 1.98.0。Windows 用户可按照 [Rust 官方安装页](https://www.rust-lang.org/tools/install) 安装 `rustup`，使用 MSVC toolchain，并安装对应的 Visual Studio C++ Build Tools 与 Windows SDK；Linux 用户可使用官网提供的安装命令：
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -122,10 +126,12 @@ Windows PowerShell：
 
 ```powershell
 Set-Location "PATH_TO_YOUR_FILES\ArcQML"
+$env:RUSTUP_TOOLCHAIN = "1.98.0"
 $env:ARCQML_RUNTIME_LIB_DIR = (Resolve-Path ".\libs\x86_64-pc-windows-msvc").Path
 cargo check -p arcqml
 ```
 
+Linux（后续平台说明，本次未附 Linux 二进制）：
 
 ```bash
 cd PATH_TO_YOUR_FILES/ArcQML
@@ -146,12 +152,14 @@ arcqml = { path = "PATH_TO_YOUR_FILES/ArcQML/crates/arcqml" }
 
 ### 2.3 Python 环境与 wheel 安装
 
+当前 Python wheel 标记适用于 Windows `x86_64`、`CPython 3.11`。建议使用独立 Conda 环境，避免现有环境中的 Python 或 NumPy 版本影响安装。以下命令均在 ArcQML 发行包根目录执行：
 
 ```bash
 cd PATH_TO_YOUR_FILES/ArcQML
 conda create -n arcqml-example python=3.11 -y
 conda activate arcqml-example
 python -m pip install --upgrade pip
+python -m pip install ./wheels/x86_64-pc-windows-msvc/arcqml-0.1.0-cp311-cp311-win_amd64.whl
 ```
 
 wheel 已静态嵌入与其版本匹配的 ArcQML Runtime，因此 Python 用户不需要设置 `ARCQML_RUNTIME_LIB_DIR`，也不需要安装 Rust、Maturin 或从源码编译扩展。可用 `python -c "import arcqml; print(arcqml)"` 验证导入是否成功。若 pip 报告 wheel 与平台不兼容，应先核对 `python --version`、`python -c "import platform; print(platform.machine())"` 与操作系统。

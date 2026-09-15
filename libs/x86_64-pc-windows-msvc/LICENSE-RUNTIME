@@ -1,0 +1,60 @@
+ArcQML Noncommercial Runtime Binary License 1.0
+SPDX-License-Identifier: LicenseRef-ArcQML-NC-Runtime-1.0
+
+Copyright (c) 2026 北京中科弧光量子软件技术有限公司. All rights reserved.
+
+1. Scope. This license governs the original proprietary ArcQML Runtime object
+code supplied or designated by the copyright holder, including its unchanged
+object code embedded in official wheels or application binaries. Runtime source
+is confidential; this license grants no rights to access, publish or modify it.
+Separately identified third-party components retain their own licenses.
+
+2. Noncommercial grant. Subject to these terms, You may install and run
+unmodified official Runtime with ArcQML applications solely for noncommercial
+purposes. You may redistribute it unchanged, including by static linking, only
+embedded in or supplied solely for use with an application built against the
+matching public ArcQML ABI. Include this license, all applicable third-party
+notices, and the Runtime version, ABI, platform and binary SHA-256. Comply with
+the separate public framework license and its source requirements and official
+Runtime exception. This license does not require disclosure of Runtime source.
+
+3. Commercial Use means use primarily intended for, directed toward, or in
+support of commercial advantage or monetary compensation, directly or indirectly.
+It includes internal business operations, commercial research or development,
+paid consulting, product sale or licensing, and commercial hosted or network
+services. Free access or nonprofit status alone does not exempt such activity.
+Unpaid personal study, teaching and research unrelated to commercial advantage
+may qualify as noncommercial. Commercial Use requires a separate written license;
+contact quill@arclightquantum.com. No such separate license is promised.
+
+4. Restrictions. Except for rights granted by applicable law or the licenses of
+third-party components, You may not modify, translate or create derivative works
+of Runtime; distribute it as a standalone competing SDK; expose it through a
+competing hosted service; remove notices; circumvent license or technical
+controls; or reverse engineer, decompile or disassemble it. Static linking as
+permitted in section 2 is not a prohibited modification. No source, patent,
+trademark or sublicensing rights are granted by this license. Recipients may
+exercise the rights directly granted here if they comply with these terms.
+
+5. Ownership and third parties. Runtime rights remain with the copyright holder
+and its licensors. These terms do not replace or restrict independent rights
+under third-party licenses, including their modification, reverse-engineering
+and redistribution permissions. Preserve all required notices and attributions.
+No obligation to provide updates, support or continued availability is assumed.
+
+6. Termination. Rights terminate on breach. For a first notified breach, rights
+are reinstated if fully remedied within thirty days of written notice unless
+the copyright holder expressly and finally terminates them for that breach.
+Otherwise stop use and distribution and delete copies, except copies required
+by law. Compliant recipients' licenses and statutory rights are unaffected.
+
+7. Disclaimer and liability. RUNTIME IS PROVIDED "AS IS", WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE OR NONINFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, COPYRIGHT
+OWNERS AND CONTRIBUTORS ARE NOT LIABLE FOR DAMAGES OR OTHER LIABILITY ARISING
+FROM RUNTIME OR ITS USE. Nothing excludes liability that law cannot exclude.
+
+8. Interpretation. This English text governs. Only this version is granted;
+future versions are not automatic alternatives. A separate signed agreement
+controls conflicts for parties to that agreement. Unenforceability of a term
+does not invalidate the remaining terms. All ungranted rights are reserved.

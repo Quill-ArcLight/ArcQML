@@ -107,3 +107,4 @@ println!("threads = {}", arcqml_core::rayon_num_threads());
 
 全局线程池只能初始化一次。应用应在启动阶段调用，而不是在训练循环中重复调用。
 
+错误统一使用 `ArcQmlError` / `Result`。高级算子位于 [`arcqml-linalg`](../arcqml-linalg/README.md)，完整框架入口见 [`arcqml`](../arcqml/README.md)。许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

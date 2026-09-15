@@ -2,7 +2,9 @@
 
 ArcQML 是一个用 Rust 语言原生实现的量子机器学习框架，提供了量子电路构建、状态向量模拟、可观测量期望值计算、自动微分和参数优化等核心能力。框架既支持单个量子态的计算，也支持批量状态模拟，并可使用 Pauli 算符及其线性组合表示可观测量。量子电路计算得到的期望值以可微分张量形式输出，可以继续参与损失函数及其他经典可微运算；执行反向传播时，梯度能够沿完整计算图传递至量子电路参数。对于含参量子电路，ArcQML 可以利用伴随法计算电路参数梯度，再与 Adam、SGD 等经典优化器配合完成混合量子—经典算法的训练。
 
+这些能力可以用于变分量子本征求解、量子神经网络、量子态分析和小规模酉矩阵综合等任务。框架使用 Rust 原生编译与 CPU 并行。当前版本仅支持在 CPU 上进行模拟，后续计划增加对 GPU 的支持。本预览版的低层接口存在已知内存安全限制，见 [SECURITY.md](SECURITY.md)。
 
+> 当前版本：`0.1.0`（Windows 实验性预览版）。ArcQML 采用混合许可，包含公开源码与闭源 Runtime。请先阅读[发行状态与许可证](#发行状态与许可证)，再决定是否用于公开分发或生产环境。
 
 ## 为什么使用 ArcQML
 
@@ -20,10 +22,13 @@ ArcQML 是一个用 Rust 语言原生实现的量子机器学习框架，提供�
 
 ## 30 秒上手：Python
 
+当前发行包提供的 wheel 适用于 **CPython 3.11、Windows x86_64**：
 
 ```bash
 python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
+python -m pip install ./wheels/x86_64-pc-windows-msvc/arcqml-0.1.0-cp311-cp311-win_amd64.whl
 ```
 
 下面的程序构造 Bell 态，读取精确概率并做末端抽样：
@@ -51,9 +56,11 @@ print(counts)         # 只会出现 "00" 和 "11"
 python -c "import arcqml; print(arcqml.__version__)"
 ```
 
+Linux、其他 Python 版本、macOS 与 ARM 平台不在本次预览版验证范围内，未随发行快照提供预编译 wheel。需要从源码构建时，请参阅 [Python README](python/README.md)。
 
 ## 30 秒上手：Rust
 
+Rust 接口使用 Rust 2024 edition，本次预编译 Runtime 要求 Rust 1.98.0 工具链。应用项目通过路径依赖使用本发行包：
 
 ```toml
 [dependencies]
@@ -65,10 +72,12 @@ arcqml = { path = "PATH_TO_ARCQML/crates/arcqml" }
 Windows PowerShell：
 
 ```powershell
+$env:RUSTUP_TOOLCHAIN = "1.98.0"
 $env:ARCQML_RUNTIME_LIB_DIR = "PATH_TO_ARCQML\libs\x86_64-pc-windows-msvc"
 cargo run
 ```
 
+Linux（后续平台说明，本次未附 Linux 二进制）：
 
 ```bash
 export ARCQML_RUNTIME_LIB_DIR="PATH_TO_ARCQML/libs/x86_64-unknown-linux-gnu"
@@ -177,4 +186,13 @@ $$
 
 ## 发行状态与许可证
 
+ArcQML 采用混合许可，这是源码可用发行，不是 OSI 认可的开源许可：
 
+- 自有公开源码采用 [ArcQML 非商业源码许可](LICENSE)：只允许非商业用途，修改和集成作品需依条款公开完整源码；商业使用另行授权。
+- 官方闭源 Runtime 采用 [非商业二进制许可](LICENSE-RUNTIME)。公开源码许可为未经修改的官方 Runtime 设置例外，不要求公开其私有实现；用户集成代码仍需公开。
+- wheel 中的公开框架、闭源 Runtime 和第三方组件分别适用各自许可。第三方材料保留原许可，见 [第三方说明](THIRD_PARTY_NOTICES.md) 及包内版本化许可正文与 SBOM。
+- 以前合法取得的 MIT/Apache 许可副本，其已授予权利不因本次发行政策变更而撤回。
+
+维护人：liuxl；商业授权及许可联系：quill@arclightquantum.com。
+
+本次为 Windows 实验性预览版，使用 Rust 1.98.0 和 CPython 3.11。内存安全问题 S01、Linux 验收和格式整理暂缓，详见 [发行说明](RELEASE_NOTES.md) 与 [安全限制](SECURITY.md)。仅使用本次随附的库和 wheel，勿混用历史产物。

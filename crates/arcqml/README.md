@@ -2,6 +2,7 @@
 
 `arcqml` 是 ArcQML 的 Rust 门面 crate。普通应用优先依赖它：一个入口即可使用电路、状态向量模拟、可观测量、自动微分、损失函数、优化器、状态分析、检查点、酉矩阵和可视化能力。
 
+> 当前版本：`0.1.0`。完整项目介绍与平台支持见[仓库根 README](../../README.md)。许可证为 [混合许可说明](../../README.md#发行状态与许可证)。
 
 ## 添加依赖
 
@@ -118,3 +119,4 @@ load_weights(&restored_circuit, "weights.json")?;
 
 当前代码没有保存 Adam 动量或完整训练状态的 `save_checkpoint` / `load_checkpoint` API。需要恢复训练时，应由应用另外保存优化器状态、训练步数和随机状态。
 
+更多内容参见[快速上手](../../README.md#快速开始)、[Rust API](../../docs/ArcQML技术手册.md)和各子 crate README。

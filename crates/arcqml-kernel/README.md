@@ -19,6 +19,7 @@ arcqml-runtime-sys / arcqml-runtime-abi
 ArcQML Runtime
 ```
 
+`arcqml-kernel`、`arcqml-runtime-abi` 与 `arcqml-runtime-sys` 的源码属于非商业源码可用的公开接口层；它们所链接的 ArcQML Runtime 二进制采用单独许可。详细边界见[仓库根 README](../../README.md#发行状态与许可证)。
 
 ## 添加依赖
 

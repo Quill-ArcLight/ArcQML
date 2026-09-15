@@ -86,3 +86,4 @@ $$
 
 `statevector_expectation` 等低层接口直接接收连续复振幅切片；普通应用优先通过 [`arcqml-sim`](../arcqml-sim/README.md) 调用，以获得状态校验与自动微分集成。
 
+许可证见 [混合许可说明](../../README.md#发行状态与许可证)。

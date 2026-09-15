@@ -1,0 +1,41 @@
+[graph]
+all-features = true
+
+[advisories]
+unmaintained = "all"
+yanked = "deny"
+
+[licenses]
+include-dev = true
+include-build = true
+confidence-threshold = 0.93
+allow = ["MIT", "Apache-2.0", "BSD-2-Clause", "Unicode-3.0", "Unlicense"]
+# Reviewed target-lexicon 0.13.5 LICENSE contains the LLVM exception verbatim.
+exceptions = [
+    { name = "target-lexicon", version = "=0.13.5", allow = ["Apache-2.0 WITH LLVM-exception"] },
+    { name = "arcqml", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-analysis", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-checkpoint", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-circuit", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-core", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-kernel", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-linalg", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-loss", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-observable", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-optim", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-python", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-runtime-abi", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-runtime-sys", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-sim", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-unitary", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+    { name = "arcqml-visualization", version = "=0.1.0", allow = ["LicenseRef-ArcQML-NC-Source-1.0"] },
+]
+
+[bans]
+multiple-versions = "warn"
+wildcards = "warn"
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]
