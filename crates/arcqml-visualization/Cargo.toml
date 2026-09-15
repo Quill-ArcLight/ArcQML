@@ -1,0 +1,12 @@
+[package]
+name = "arcqml-visualization"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+arcqml-circuit.workspace = true
+
+[dev-dependencies]
+num-complex.workspace = true

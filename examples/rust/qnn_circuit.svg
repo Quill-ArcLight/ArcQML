@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1470" height="576" viewBox="0 0 1470 576" role="img" aria-label="量子电路图">
+  <rect width="100%" height="100%" fill="white"/>
+  <g stroke="#1f2937" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <text x="56.0" y="36.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q0</text>
+    <line x1="68.0" y1="36.0" x2="1446.0" y2="36.0" stroke="#6b7280"/>
+    <text x="56.0" y="92.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q1</text>
+    <line x1="68.0" y1="92.0" x2="1446.0" y2="92.0" stroke="#6b7280"/>
+    <text x="56.0" y="148.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q2</text>
+    <line x1="68.0" y1="148.0" x2="1446.0" y2="148.0" stroke="#6b7280"/>
+    <text x="56.0" y="204.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q3</text>
+    <line x1="68.0" y1="204.0" x2="1446.0" y2="204.0" stroke="#6b7280"/>
+    <text x="56.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q4</text>
+    <line x1="68.0" y1="260.0" x2="1446.0" y2="260.0" stroke="#6b7280"/>
+    <text x="56.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q5</text>
+    <line x1="68.0" y1="316.0" x2="1446.0" y2="316.0" stroke="#6b7280"/>
+    <text x="56.0" y="372.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q6</text>
+    <line x1="68.0" y1="372.0" x2="1446.0" y2="372.0" stroke="#6b7280"/>
+    <text x="56.0" y="428.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q7</text>
+    <line x1="68.0" y1="428.0" x2="1446.0" y2="428.0" stroke="#6b7280"/>
+    <text x="56.0" y="484.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q8</text>
+    <line x1="68.0" y1="484.0" x2="1446.0" y2="484.0" stroke="#6b7280"/>
+    <text x="56.0" y="540.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="15" text-anchor="end" dominant-baseline="middle">q9</text>
+    <line x1="68.0" y1="540.0" x2="1446.0" y2="540.0" stroke="#6b7280"/>
+    <rect x="68.0" y="20.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="36.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p0)</text>
+    <rect x="68.0" y="76.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="92.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p1)</text>
+    <rect x="68.0" y="132.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="148.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p2)</text>
+    <rect x="68.0" y="188.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="204.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p3)</text>
+    <rect x="68.0" y="244.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p4)</text>
+    <rect x="68.0" y="300.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p5)</text>
+    <rect x="68.0" y="356.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="372.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p6)</text>
+    <rect x="68.0" y="412.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="428.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p7)</text>
+    <rect x="68.0" y="468.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="484.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p8)</text>
+    <rect x="68.0" y="524.0" width="72.0" height="32.0" rx="3" fill="white"/>
+    <text x="104.0" y="540.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p9)</text>
+    <line x1="185.0" y1="36.0" x2="185.0" y2="92.0"/>
+    <circle cx="185.0" cy="36.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="185.0" cy="92.0" r="11.0" fill="white"/>
+    <line x1="174.0" y1="92.0" x2="196.0" y2="92.0"/>
+    <line x1="185.0" y1="81.0" x2="185.0" y2="103.0"/>
+    <line x1="185.0" y1="148.0" x2="185.0" y2="204.0"/>
+    <circle cx="185.0" cy="148.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="185.0" cy="204.0" r="11.0" fill="white"/>
+    <line x1="174.0" y1="204.0" x2="196.0" y2="204.0"/>
+    <line x1="185.0" y1="193.0" x2="185.0" y2="215.0"/>
+    <line x1="185.0" y1="260.0" x2="185.0" y2="316.0"/>
+    <circle cx="185.0" cy="260.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="185.0" cy="316.0" r="11.0" fill="white"/>
+    <line x1="174.0" y1="316.0" x2="196.0" y2="316.0"/>
+    <line x1="185.0" y1="305.0" x2="185.0" y2="327.0"/>
+    <line x1="185.0" y1="484.0" x2="185.0" y2="540.0"/>
+    <circle cx="185.0" cy="540.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="185.0" cy="484.0" r="11.0" fill="white"/>
+    <line x1="174.0" y1="484.0" x2="196.0" y2="484.0"/>
+    <line x1="185.0" y1="473.0" x2="185.0" y2="495.0"/>
+    <line x1="185.0" y1="372.0" x2="185.0" y2="428.0"/>
+    <circle cx="185.0" cy="428.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="185.0" cy="372.0" r="11.0" fill="white"/>
+    <line x1="174.0" y1="372.0" x2="196.0" y2="372.0"/>
+    <line x1="185.0" y1="361.0" x2="185.0" y2="383.0"/>
+    <rect x="230.0" y="76.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="92.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p10)</text>
+    <rect x="230.0" y="132.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="148.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p11)</text>
+    <rect x="230.0" y="188.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="204.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p12)</text>
+    <rect x="230.0" y="244.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p13)</text>
+    <rect x="230.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p14)</text>
+    <rect x="230.0" y="356.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="372.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p15)</text>
+    <rect x="230.0" y="412.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="428.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p16)</text>
+    <rect x="230.0" y="468.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="270.0" y="484.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p17)</text>
+    <line x1="355.0" y1="92.0" x2="355.0" y2="148.0"/>
+    <circle cx="355.0" cy="92.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="355.0" cy="148.0" r="11.0" fill="white"/>
+    <line x1="344.0" y1="148.0" x2="366.0" y2="148.0"/>
+    <line x1="355.0" y1="137.0" x2="355.0" y2="159.0"/>
+    <line x1="355.0" y1="204.0" x2="355.0" y2="260.0"/>
+    <circle cx="355.0" cy="204.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="355.0" cy="260.0" r="11.0" fill="white"/>
+    <line x1="344.0" y1="260.0" x2="366.0" y2="260.0"/>
+    <line x1="355.0" y1="249.0" x2="355.0" y2="271.0"/>
+    <line x1="355.0" y1="428.0" x2="355.0" y2="484.0"/>
+    <circle cx="355.0" cy="484.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="355.0" cy="428.0" r="11.0" fill="white"/>
+    <line x1="344.0" y1="428.0" x2="366.0" y2="428.0"/>
+    <line x1="355.0" y1="417.0" x2="355.0" y2="439.0"/>
+    <line x1="355.0" y1="316.0" x2="355.0" y2="372.0"/>
+    <circle cx="355.0" cy="372.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="355.0" cy="316.0" r="11.0" fill="white"/>
+    <line x1="344.0" y1="316.0" x2="366.0" y2="316.0"/>
+    <line x1="355.0" y1="305.0" x2="355.0" y2="327.0"/>
+    <rect x="400.0" y="132.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="440.0" y="148.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p18)</text>
+    <rect x="400.0" y="188.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="440.0" y="204.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p19)</text>
+    <rect x="400.0" y="244.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="440.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p20)</text>
+    <rect x="400.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="440.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p21)</text>
+    <rect x="400.0" y="356.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="440.0" y="372.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p22)</text>
+    <rect x="400.0" y="412.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="440.0" y="428.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rx(p23)</text>
+    <line x1="525.0" y1="148.0" x2="525.0" y2="204.0"/>
+    <circle cx="525.0" cy="148.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="525.0" cy="204.0" r="11.0" fill="white"/>
+    <line x1="514.0" y1="204.0" x2="536.0" y2="204.0"/>
+    <line x1="525.0" y1="193.0" x2="525.0" y2="215.0"/>
+    <line x1="525.0" y1="260.0" x2="525.0" y2="316.0"/>
+    <circle cx="525.0" cy="260.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="525.0" cy="316.0" r="11.0" fill="white"/>
+    <line x1="514.0" y1="316.0" x2="536.0" y2="316.0"/>
+    <line x1="525.0" y1="305.0" x2="525.0" y2="327.0"/>
+    <line x1="525.0" y1="372.0" x2="525.0" y2="428.0"/>
+    <circle cx="525.0" cy="428.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="525.0" cy="372.0" r="11.0" fill="white"/>
+    <line x1="514.0" y1="372.0" x2="536.0" y2="372.0"/>
+    <line x1="525.0" y1="361.0" x2="525.0" y2="383.0"/>
+    <rect x="570.0" y="188.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="610.0" y="204.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p24)</text>
+    <rect x="570.0" y="244.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="610.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p25)</text>
+    <rect x="570.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="610.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p26)</text>
+    <rect x="570.0" y="356.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="610.0" y="372.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p27)</text>
+    <line x1="695.0" y1="204.0" x2="695.0" y2="260.0"/>
+    <circle cx="695.0" cy="204.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="695.0" cy="260.0" r="11.0" fill="white"/>
+    <line x1="684.0" y1="260.0" x2="706.0" y2="260.0"/>
+    <line x1="695.0" y1="249.0" x2="695.0" y2="271.0"/>
+    <line x1="695.0" y1="316.0" x2="695.0" y2="372.0"/>
+    <circle cx="695.0" cy="372.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="695.0" cy="316.0" r="11.0" fill="white"/>
+    <line x1="684.0" y1="316.0" x2="706.0" y2="316.0"/>
+    <line x1="695.0" y1="305.0" x2="695.0" y2="327.0"/>
+    <rect x="740.0" y="244.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="780.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rz(p28)</text>
+    <rect x="740.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="780.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rz(p31)</text>
+    <rect x="836.0" y="244.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="876.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p29)</text>
+    <rect x="836.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="876.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p32)</text>
+    <rect x="932.0" y="244.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="972.0" y="260.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rz(p30)</text>
+    <rect x="932.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="972.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rz(p33)</text>
+    <line x1="1057.0" y1="260.0" x2="1057.0" y2="316.0"/>
+    <circle cx="1057.0" cy="260.0" r="4.5" fill="#111827" stroke="none"/>
+    <circle cx="1057.0" cy="316.0" r="11.0" fill="white"/>
+    <line x1="1046.0" y1="316.0" x2="1068.0" y2="316.0"/>
+    <line x1="1057.0" y1="305.0" x2="1057.0" y2="327.0"/>
+    <rect x="1102.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="1142.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rz(p34)</text>
+    <rect x="1198.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="1238.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Ry(p35)</text>
+    <rect x="1294.0" y="300.0" width="80.0" height="32.0" rx="3" fill="white"/>
+    <text x="1334.0" y="316.0" fill="#111827" stroke="none" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle">Rz(p36)</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "num_qubits": 4,
+  "terms": [
+    { "coefficient": -0.042078985845795724, "paulis": [] },
+    { "coefficient": 0.17771287497710692, "paulis": [{ "qubit": 0, "pauli": "Z" }] },
+    { "coefficient": 0.17771287497710694, "paulis": [{ "qubit": 1, "pauli": "Z" }] },
+    { "coefficient": -0.24274280031041434, "paulis": [{ "qubit": 2, "pauli": "Z" }] },
+    { "coefficient": -0.2427428003104144, "paulis": [{ "qubit": 3, "pauli": "Z" }] },
+    { "coefficient": 0.17059738363607438, "paulis": [{ "qubit": 0, "pauli": "Z" }, { "qubit": 1, "pauli": "Z" }] },
+    { "coefficient": 0.12293305043530654, "paulis": [{ "qubit": 0, "pauli": "Z" }, { "qubit": 2, "pauli": "Z" }] },
+    { "coefficient": 0.16768319430522804, "paulis": [{ "qubit": 0, "pauli": "Z" }, { "qubit": 3, "pauli": "Z" }] },
+    { "coefficient": 0.16768319430522804, "paulis": [{ "qubit": 1, "pauli": "Z" }, { "qubit": 2, "pauli": "Z" }] },
+    { "coefficient": 0.12293305043530654, "paulis": [{ "qubit": 1, "pauli": "Z" }, { "qubit": 3, "pauli": "Z" }] },
+    { "coefficient": 0.17627640720955273, "paulis": [{ "qubit": 2, "pauli": "Z" }, { "qubit": 3, "pauli": "Z" }] },
+    { "coefficient": -0.04475014386992153, "paulis": [{ "qubit": 0, "pauli": "X" }, { "qubit": 1, "pauli": "X" }, { "qubit": 2, "pauli": "Y" }, { "qubit": 3, "pauli": "Y" }] },
+    { "coefficient": 0.04475014386992153, "paulis": [{ "qubit": 0, "pauli": "X" }, { "qubit": 1, "pauli": "Y" }, { "qubit": 2, "pauli": "Y" }, { "qubit": 3, "pauli": "X" }] },
+    { "coefficient": 0.04475014386992153, "paulis": [{ "qubit": 0, "pauli": "Y" }, { "qubit": 1, "pauli": "X" }, { "qubit": 2, "pauli": "X" }, { "qubit": 3, "pauli": "Y" }] },
+    { "coefficient": -0.04475014386992153, "paulis": [{ "qubit": 0, "pauli": "Y" }, { "qubit": 1, "pauli": "Y" }, { "qubit": 2, "pauli": "X" }, { "qubit": 3, "pauli": "X" }] }
+  ]
+}

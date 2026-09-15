@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "maturin"
+
+[project]
+name = "arcqml"
+dynamic = ["version"]
+description = "Differentiable quantum circuits backed by the ArcQML Rust workspace"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[tool.maturin]
+manifest-path = "python/Cargo.toml"
+module-name = "arcqml"
+features = ["extension-module"]

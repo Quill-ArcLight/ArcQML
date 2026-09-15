@@ -1,0 +1,56 @@
+[workspace]
+members = [
+    "crates/arcqml",
+    "python",
+    "crates/arcqml-runtime-abi",
+    "crates/arcqml-runtime-sys",
+    "crates/arcqml-core",
+    "crates/arcqml-linalg",
+    "crates/arcqml-loss",
+    "crates/arcqml-checkpoint",
+    "crates/arcqml-optim",
+    "crates/arcqml-circuit",
+    "crates/arcqml-visualization",
+    "crates/arcqml-analysis",
+    "crates/arcqml-observable",
+    "crates/arcqml-kernel",
+    "crates/arcqml-sim",
+    "crates/arcqml-unitary",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+description = "ArcQML: a CPU dense quantum machine-learning framework written in Rust"
+
+[workspace.dependencies]
+num-complex = "0.4"
+thiserror = "2"
+rand = "0.10"
+rand_distr = "0.6"
+ndarray = "0.16"
+matrixmultiply = "0.3"
+rayon = "1"
+pyo3 = "0.29"
+numpy = "0.29"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+arcqml-core = { version = "0.1", path = "crates/arcqml-core" }
+arcqml-linalg = { version = "0.1", path = "crates/arcqml-linalg" }
+arcqml-loss = { version = "0.1", path = "crates/arcqml-loss" }
+arcqml-checkpoint = { version = "0.1", path = "crates/arcqml-checkpoint" }
+arcqml-optim = { version = "0.1", path = "crates/arcqml-optim" }
+arcqml-circuit = { version = "0.1", path = "crates/arcqml-circuit" }
+arcqml-visualization = { version = "0.1", path = "crates/arcqml-visualization" }
+arcqml-analysis = { version = "0.1", path = "crates/arcqml-analysis" }
+arcqml-observable = { version = "0.1", path = "crates/arcqml-observable" }
+arcqml-kernel = { version = "0.1", path = "crates/arcqml-kernel" }
+arcqml-sim = { version = "0.1", path = "crates/arcqml-sim" }
+arcqml-unitary = { version = "0.1", path = "crates/arcqml-unitary" }
+arcqml-runtime-abi = { version = "0.1", path = "crates/arcqml-runtime-abi" }
+arcqml-runtime-sys = { version = "0.1", path = "crates/arcqml-runtime-sys" }
+
+[profile.release]
+strip = "symbols"

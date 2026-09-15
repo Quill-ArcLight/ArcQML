@@ -1,0 +1,22 @@
+{
+  "num_qubits": 3,
+  "terms": [
+    {
+      "coefficient": -0.5,
+      "paulis": [
+        { "qubit": 0, "pauli": "Z" },
+        { "qubit": 2, "pauli": "X" }
+      ]
+    },
+    {
+      "coefficient": 0.25,
+      "paulis": [
+        { "qubit": 1, "pauli": "Y" }
+      ]
+    },
+    {
+      "coefficient": 0.1,
+      "paulis": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+[package]
+name = "arcqml"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+arcqml-core.workspace = true
+arcqml-checkpoint.workspace = true
+arcqml-linalg.workspace = true
+arcqml-circuit.workspace = true
+arcqml-visualization.workspace = true
+arcqml-analysis.workspace = true
+arcqml-observable.workspace = true
+arcqml-sim.workspace = true
+arcqml-unitary.workspace = true
+arcqml-optim.workspace = true
+arcqml-loss.workspace = true
+num-complex.workspace = true
+
+[[example]]
+name = "h2_vqe"
+path = "../../examples/rust/h2_vqe.rs"
+
+[[example]]
+name = "qnn_german_credit"
+path = "../../examples/rust/qnn_german_credit.rs"
+
+[[example]]
+name = "custom_loss"
+path = "../../examples/rust/custom_loss.rs"
+
+[features]
+default = ["parallel"]
+parallel = ["arcqml-core/parallel", "arcqml-linalg/parallel", "arcqml-sim/parallel"]

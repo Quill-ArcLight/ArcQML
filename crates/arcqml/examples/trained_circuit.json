@@ -1,0 +1,46 @@
+{
+  "format": "arcqml/weights",
+  "num_qubits": 2,
+  "parameters": [
+    {
+      "name": "crx_q1_theta_3",
+      "dtype": "f64",
+      "value": 0.11383064192319058
+    },
+    {
+      "name": "ry_q0_theta_0",
+      "dtype": "f64",
+      "value": 0.36154268969437336
+    },
+    {
+      "name": "ry_q1_theta_2",
+      "dtype": "f64",
+      "value": -0.09988119134033817
+    },
+    {
+      "name": "rz_q0_theta_1",
+      "dtype": "f64",
+      "value": 0.1280392734848236
+    },
+    {
+      "name": "rzz_q0_theta_4",
+      "dtype": "f64",
+      "value": 0.30000000020880396
+    },
+    {
+      "name": "u3_q1_lambda_7",
+      "dtype": "f64",
+      "value": 0.3999999999293251
+    },
+    {
+      "name": "u3_q1_phi_6",
+      "dtype": "f64",
+      "value": -0.10000000003620464
+    },
+    {
+      "name": "u3_q1_theta_5",
+      "dtype": "f64",
+      "value": 0.15000000002373937
+    }
+  ]
+}

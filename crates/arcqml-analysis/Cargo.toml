@@ -1,0 +1,16 @@
+[package]
+name = "arcqml-analysis"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+num-complex.workspace = true
+thiserror.workspace = true
+arcqml-sim.workspace = true
+arcqml-core.workspace = true
+arcqml-linalg.workspace = true
+
+[dev-dependencies]
+arcqml-circuit.workspace = true

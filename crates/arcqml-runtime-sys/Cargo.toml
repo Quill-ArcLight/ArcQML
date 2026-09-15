@@ -1,0 +1,18 @@
+[package]
+name = "arcqml-runtime-sys"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Safe source facade for the ArcQML native C ABI runtime"
+build = "build.rs"
+
+[features]
+default = []
+
+[dependencies]
+num-complex.workspace = true
+arcqml-runtime-abi.workspace = true
+
+[lints.rust]
+unexpected_cfgs = { level = "allow", check-cfg = ['cfg(feature, values("private-source"))'] }

@@ -1,0 +1,18 @@
+[package]
+name = "arcqml-linalg"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+arcqml-core.workspace = true
+num-complex.workspace = true
+ndarray.workspace = true
+matrixmultiply = { workspace = true, features = ["cgemm"] }
+rayon = { workspace = true, optional = true }
+thiserror.workspace = true
+
+[features]
+default = ["parallel"]
+parallel = ["dep:rayon", "ndarray/rayon", "arcqml-core/parallel"]

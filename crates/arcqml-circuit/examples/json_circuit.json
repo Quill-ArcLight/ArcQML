@@ -1,0 +1,51 @@
+{
+  "qubit_count": 2,
+  "parameters": [
+    {
+      "name": "parameter_0"
+    }
+  ],
+  "operations": [
+    {
+      "gate": {
+        "kind": "h"
+      },
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "gate": {
+        "kind": "ry",
+        "parameter": {
+          "kind": "parameter",
+          "id": 0
+        }
+      },
+      "qubits": [
+        1
+      ]
+    },
+    {
+      "gate": {
+        "kind": "cnot"
+      },
+      "qubits": [
+        0,
+        1
+      ]
+    },
+    {
+      "gate": {
+        "kind": "rz",
+        "parameter": {
+          "kind": "fixed",
+          "value": 0.25
+        }
+      },
+      "qubits": [
+        1
+      ]
+    }
+  ]
+}

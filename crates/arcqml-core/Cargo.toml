@@ -1,0 +1,17 @@
+[package]
+name = "arcqml-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+num-complex.workspace = true
+thiserror.workspace = true
+rand.workspace = true
+rand_distr.workspace = true
+rayon = { workspace = true, optional = true }
+
+[features]
+default = ["parallel"]
+parallel = ["dep:rayon"]

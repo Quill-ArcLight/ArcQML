@@ -1,0 +1,10 @@
+[package]
+name = "arcqml-runtime-abi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Stable C ABI declarations for the ArcQML native runtime"
+
+[dependencies]
+num-complex.workspace = true

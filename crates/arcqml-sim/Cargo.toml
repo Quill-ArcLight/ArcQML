@@ -1,0 +1,24 @@
+[package]
+name = "arcqml-sim"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+num-complex.workspace = true
+rand.workspace = true
+thiserror.workspace = true
+arcqml-circuit.workspace = true
+arcqml-core.workspace = true
+arcqml-observable.workspace = true
+arcqml-kernel.workspace = true
+rayon = { workspace = true, optional = true }
+
+[dev-dependencies]
+arcqml-linalg.workspace = true
+arcqml-loss.workspace = true
+
+[features]
+default = ["parallel"]
+parallel = ["dep:rayon", "arcqml-core/parallel", "arcqml-kernel/parallel", "arcqml-observable/parallel"]
