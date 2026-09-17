@@ -18,7 +18,7 @@ ArcQML 是一个用 Rust 语言原生实现的量子机器学习框架，提供�
 1. `Circuit` 描述“要执行哪些量子门”；
 2. `(Batch)StateVectorSimulator` 描述“从哪个量子态开始计算”；
 3. `SparsePauliOp` 描述“最后观察什么物理量”；
-4. `Tensor`、loss 与 optimizer 负责“如何根据结果更新参数”。
+4. `Tensor`、`loss` 与 `optimizer` 负责“如何根据结果更新参数”。
 
 ## 30 秒上手：Python
 
@@ -29,6 +29,12 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install ./wheels/x86_64-pc-windows-msvc/arcqml-0.1.0-cp311-cp311-win_amd64.whl
+```
+
+安装后可用以下命令验证：
+
+```bash
+python -c "import arcqml; print(arcqml.__version__)"
 ```
 
 下面的程序构造 Bell 态，读取精确概率并做末端抽样：
@@ -48,12 +54,6 @@ counts = simulator.sample_counts(1_000, seed=42)
 
 print(probabilities)  # 约为 [0.5, 0.0, 0.0, 0.5]
 print(counts)         # 只会出现 "00" 和 "11"
-```
-
-安装后可用以下命令验证：
-
-```bash
-python -c "import arcqml; print(arcqml.__version__)"
 ```
 
 Linux、其他 Python 版本、macOS 与 ARM 平台不在本次预览版验证范围内，未随发行快照提供预编译 wheel。需要从源码构建时，请参阅 [Python README](python/README.md)。
@@ -119,11 +119,11 @@ optimizer = arcqml.Adam(learning_rate=0.05)
 target = arcqml.tensor(0.2)
 
 for step in range(20):
-    optimizer.zero_grad(circuit)
     prediction = simulator.run(circuit, observable)
     loss = arcqml.mse_loss(prediction, target)
     loss.backward()
     optimizer.step(circuit)
+    optimizer.zero_grad(circuit)
 
 print("loss =", loss.item())
 print("parameters =", circuit.parameter_values())
