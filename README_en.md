@@ -1,5 +1,7 @@
 # ArcQML
 
+[中文](README.md) | **English**
+
 ArcQML is a quantum machine learning framework implemented natively in Rust. It provides core capabilities including quantum circuit construction, state-vector simulation, observable expectation value calculation, automatic differentiation, and parameter optimization. The framework supports both single-state computation and batched-state simulation, and observables can be represented using Pauli operators and their linear combinations. Expectation values computed by quantum circuits are returned as differentiable tensors, allowing them to participate in loss functions and other classical differentiable operations. During backpropagation, gradients can propagate through the complete computation graph to the quantum circuit parameters. For parameterized quantum circuits, ArcQML can compute circuit parameter gradients using the adjoint method and combine them with classical optimizers such as Adam and SGD to train hybrid quantum-classical algorithms.
 
 These capabilities can be used for tasks such as variational quantum eigensolving (VQE), quantum neural networks (QNN), quantum state analysis, and small-scale unitary matrix synthesis. The framework uses native Rust compilation and CPU parallelism. The current version supports CPU simulation only, with GPU support planned for a future release. The low-level interfaces in this preview release have known memory-safety limitations; see [SECURITY.md](SECURITY.md).
