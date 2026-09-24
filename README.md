@@ -1,7 +1,5 @@
 # ArcQML
 
-**中文** | [English](README_en.md)
-
 ArcQML 是一个用 Rust 语言原生实现的量子机器学习框架，提供了量子电路构建、状态向量模拟、可观测量期望值计算、自动微分和参数优化等核心能力。框架既支持单个量子态的计算，也支持批量状态模拟，并可使用 Pauli 算符及其线性组合表示可观测量。量子电路计算得到的期望值以可微分张量形式输出，可以继续参与损失函数及其他经典可微运算；执行反向传播时，梯度能够沿完整计算图传递至量子电路参数。对于含参量子电路，ArcQML 可以利用伴随法计算电路参数梯度，再与 Adam、SGD 等经典优化器配合完成混合量子—经典算法的训练。
 
 这些能力可以用于变分量子本征求解、量子神经网络、量子态分析和小规模酉矩阵综合等任务。框架使用 Rust 原生编译与 CPU 并行。当前版本仅支持在 CPU 上进行模拟，后续计划增加对 GPU 的支持。本预览版的低层接口存在已知内存安全限制，见 [SECURITY.md](SECURITY.md)。
@@ -144,19 +142,19 @@ $$
 | 能力 | Rust | Python | 主要入口 |
 | --- | :---: | :---: | --- |
 | 参数化量子电路 | 完整门集 | 常用门子集 | `Circuit` |
-| 单态状态向量模拟 | ✓ | ✓ | `StateVectorSimulator` |
-| 行主序 batch 模拟 | ✓ | ✓ | `BatchStateVectorSimulator` |
+| 状态向量模拟 | ✓ | ✓ | `StateVectorSimulator` |
+| 批量状态向量模拟 | ✓ | ✓ | `BatchStateVectorSimulator` |
 | Pauli 和期望值 | ✓ | ✓ | `SparsePauliOp` / `PauliSum` |
 | 量子伴随梯度 | ✓ | ✓ | `run` + `Tensor.backward` |
 | Tensor 与线性代数 | ✓ | 基础 Tensor | `arcqml-core` / `arcqml-linalg` |
 | 损失函数 | ✓ | 部分 | `arcqml-loss` |
 | 优化器 | ✓ | 部分 | `arcqml-optim` |
 | 概率、边缘概率、保真度、Bloch 向量 | ✓ | ✓ | `arcqml-analysis` |
-| 末端抽样 | 仅单态 | 仅单态 | `sample_counts` |
+| 输出态抽样 | 仅单态 | 仅单态 | `sample_counts` |
 | 电路文本图与 SVG | ✓ | — | `arcqml-visualization` |
 | 电路结构 JSON | ✓ | — | `Circuit::to_json` / `from_json` |
 | 参数权重 JSON | ✓ | — | `save_weights` / `load_weights` |
-| 整体酉矩阵与拟合 | ✓ | — | `arcqml-unitary` |
+| 酉矩阵与拟合 | ✓ | — | `arcqml-unitary` |
 
 ## 重要约定
 
